@@ -1,0 +1,34 @@
+2022-12-01 10:28:32,433 - Train-GT50E - [INFO] - {'name': 'Train-GT50E', 'dataset': 'DBpedia-GT50E', 'model': 'compgcn', 'score_func': 'conve', 'opn': 'corr', 'batch_size': 128, 'gamma': 40.0, 'gpu': '0', 'max_epochs': 500, 'l2': 0.0, 'lr': 0.003, 'lbl_smooth': 0.1, 'num_workers': 10, 'seed': 41504, 'restore': True, 'test': True, 'restore_model': 'Train-GT50E', 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 200, 'embed_dim': 200, 'gcn_layer': 1, 'input_drop': 0.2, 'hidden_drop': 0.3, 'hidden_size': 9728, 'hid_drop2': 0.3, 'feat_drop': 0.2, 'k_w': 10, 'k_h': 20, 'num_filt': 200, 'ker_sz': 3, 'log_dir': './log/', 'config_dir': './config/'}
+2022-12-01 10:29:04,123 - Train-GT50E - [INFO] - Successfully Loaded previous model
+2022-12-01 10:29:04,123 - Train-GT50E - [INFO] - Loading best model, Evaluating on Test data
+2022-12-01 10:29:39,572 - Train-GT50E - [INFO] - {'name': 'Train-GT50E', 'dataset': 'DBpedia-GT50E', 'model': 'compgcn', 'score_func': 'conve', 'opn': 'corr', 'batch_size': 128, 'gamma': 40.0, 'gpu': '0', 'max_epochs': 500, 'l2': 0.0, 'lr': 0.003, 'lbl_smooth': 0.1, 'num_workers': 10, 'seed': 41504, 'restore': True, 'test': True, 'restore_model': 'Train-GT50E', 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 200, 'embed_dim': 200, 'gcn_layer': 1, 'input_drop': 0.2, 'hidden_drop': 0.3, 'hidden_size': 9728, 'hid_drop2': 0.3, 'feat_drop': 0.2, 'k_w': 10, 'k_h': 20, 'num_filt': 200, 'ker_sz': 3, 'log_dir': './log/', 'config_dir': './config/'}
+2022-12-01 10:30:11,322 - Train-GT50E - [INFO] - Successfully Loaded previous model
+2022-12-01 10:30:11,323 - Train-GT50E - [INFO] - Loading best model, Evaluating on Test data
+2022-12-01 10:30:15,164 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 0]	Train-GT50E
+2022-12-01 10:30:37,503 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 100]	Train-GT50E
+2022-12-01 10:30:59,978 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 200]	Train-GT50E
+2022-12-01 10:31:22,444 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 300]	Train-GT50E
+2022-12-01 10:31:44,911 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 400]	Train-GT50E
+2022-12-01 10:32:07,447 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 500]	Train-GT50E
+2022-12-01 10:32:30,316 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 600]	Train-GT50E
+2022-12-01 10:32:53,099 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 700]	Train-GT50E
+2022-12-01 10:33:15,875 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 800]	Train-GT50E
+2022-12-01 10:33:38,563 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 900]	Train-GT50E
+2022-12-01 10:34:01,119 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 1000]	Train-GT50E
+2022-12-01 10:34:23,707 - Train-GT50E - [INFO] - [Test, Tail_Batch Step 1100]	Train-GT50E
+2022-12-01 10:34:39,518 - Train-GT50E - [INFO] - [Test, Head_Batch Step 0]	Train-GT50E
+2022-12-01 10:35:02,343 - Train-GT50E - [INFO] - [Test, Head_Batch Step 100]	Train-GT50E
+2022-12-01 10:35:24,794 - Train-GT50E - [INFO] - [Test, Head_Batch Step 200]	Train-GT50E
+2022-12-01 10:35:47,423 - Train-GT50E - [INFO] - [Test, Head_Batch Step 300]	Train-GT50E
+2022-12-01 10:36:10,027 - Train-GT50E - [INFO] - [Test, Head_Batch Step 400]	Train-GT50E
+2022-12-01 10:36:32,652 - Train-GT50E - [INFO] - [Test, Head_Batch Step 500]	Train-GT50E
+2022-12-01 10:36:55,199 - Train-GT50E - [INFO] - [Test, Head_Batch Step 600]	Train-GT50E
+2022-12-01 10:37:17,790 - Train-GT50E - [INFO] - [Test, Head_Batch Step 700]	Train-GT50E
+2022-12-01 10:37:40,344 - Train-GT50E - [INFO] - [Test, Head_Batch Step 800]	Train-GT50E
+2022-12-01 10:38:02,962 - Train-GT50E - [INFO] - [Test, Head_Batch Step 900]	Train-GT50E
+2022-12-01 10:38:25,516 - Train-GT50E - [INFO] - [Test, Head_Batch Step 1000]	Train-GT50E
+2022-12-01 10:38:48,128 - Train-GT50E - [INFO] - [Test, Head_Batch Step 1100]	Train-GT50E
+2022-12-01 10:38:59,751 - Train-GT50E - [INFO] - [Epoch 0 test]: MRR: Tail : 0.10777, Head : 0.00011, Avg : 0.05394
+2022-12-01 10:38:59,751 - Train-GT50E - [INFO] - [Epoch 0 test]: MR: 1.3312e+05
+2022-12-01 10:38:59,751 - Train-GT50E - [INFO] - [Epoch 0 test]: Hits@1: 0.0276, Hits@3: 0.05847, Hits@10: 0.10679
+

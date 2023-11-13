@@ -1,0 +1,34 @@
+2022-12-01 10:28:13,530 - Train-halfER - [INFO] - {'name': 'Train-halfER', 'dataset': 'DBpedia-halfER', 'model': 'compgcn', 'score_func': 'conve', 'opn': 'corr', 'batch_size': 128, 'gamma': 40.0, 'gpu': '0', 'max_epochs': 500, 'l2': 0.0, 'lr': 0.003, 'lbl_smooth': 0.1, 'num_workers': 10, 'seed': 41504, 'restore': True, 'test': True, 'restore_model': 'Train-halfER', 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 200, 'embed_dim': 200, 'gcn_layer': 1, 'input_drop': 0.2, 'hidden_drop': 0.3, 'hidden_size': 9728, 'hid_drop2': 0.3, 'feat_drop': 0.2, 'k_w': 10, 'k_h': 20, 'num_filt': 200, 'ker_sz': 3, 'log_dir': './log/', 'config_dir': './config/'}
+2022-12-01 10:28:44,175 - Train-halfER - [INFO] - Successfully Loaded previous model
+2022-12-01 10:28:44,175 - Train-halfER - [INFO] - Loading best model, Evaluating on Test data
+2022-12-01 10:29:36,643 - Train-halfER - [INFO] - {'name': 'Train-halfER', 'dataset': 'DBpedia-halfER', 'model': 'compgcn', 'score_func': 'conve', 'opn': 'corr', 'batch_size': 128, 'gamma': 40.0, 'gpu': '0', 'max_epochs': 500, 'l2': 0.0, 'lr': 0.003, 'lbl_smooth': 0.1, 'num_workers': 10, 'seed': 41504, 'restore': True, 'test': True, 'restore_model': 'Train-halfER', 'bias': False, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 200, 'embed_dim': 200, 'gcn_layer': 1, 'input_drop': 0.2, 'hidden_drop': 0.3, 'hidden_size': 9728, 'hid_drop2': 0.3, 'feat_drop': 0.2, 'k_w': 10, 'k_h': 20, 'num_filt': 200, 'ker_sz': 3, 'log_dir': './log/', 'config_dir': './config/'}
+2022-12-01 10:30:07,139 - Train-halfER - [INFO] - Successfully Loaded previous model
+2022-12-01 10:30:07,140 - Train-halfER - [INFO] - Loading best model, Evaluating on Test data
+2022-12-01 10:30:10,762 - Train-halfER - [INFO] - [Test, Tail_Batch Step 0]	Train-halfER
+2022-12-01 10:30:32,340 - Train-halfER - [INFO] - [Test, Tail_Batch Step 100]	Train-halfER
+2022-12-01 10:30:54,805 - Train-halfER - [INFO] - [Test, Tail_Batch Step 200]	Train-halfER
+2022-12-01 10:31:17,283 - Train-halfER - [INFO] - [Test, Tail_Batch Step 300]	Train-halfER
+2022-12-01 10:31:39,721 - Train-halfER - [INFO] - [Test, Tail_Batch Step 400]	Train-halfER
+2022-12-01 10:32:02,233 - Train-halfER - [INFO] - [Test, Tail_Batch Step 500]	Train-halfER
+2022-12-01 10:32:25,046 - Train-halfER - [INFO] - [Test, Tail_Batch Step 600]	Train-halfER
+2022-12-01 10:32:47,867 - Train-halfER - [INFO] - [Test, Tail_Batch Step 700]	Train-halfER
+2022-12-01 10:33:10,625 - Train-halfER - [INFO] - [Test, Tail_Batch Step 800]	Train-halfER
+2022-12-01 10:33:33,370 - Train-halfER - [INFO] - [Test, Tail_Batch Step 900]	Train-halfER
+2022-12-01 10:33:55,909 - Train-halfER - [INFO] - [Test, Tail_Batch Step 1000]	Train-halfER
+2022-12-01 10:34:18,516 - Train-halfER - [INFO] - [Test, Tail_Batch Step 1100]	Train-halfER
+2022-12-01 10:34:34,216 - Train-halfER - [INFO] - [Test, Head_Batch Step 0]	Train-halfER
+2022-12-01 10:34:56,276 - Train-halfER - [INFO] - [Test, Head_Batch Step 100]	Train-halfER
+2022-12-01 10:35:18,725 - Train-halfER - [INFO] - [Test, Head_Batch Step 200]	Train-halfER
+2022-12-01 10:35:41,314 - Train-halfER - [INFO] - [Test, Head_Batch Step 300]	Train-halfER
+2022-12-01 10:36:03,935 - Train-halfER - [INFO] - [Test, Head_Batch Step 400]	Train-halfER
+2022-12-01 10:36:26,559 - Train-halfER - [INFO] - [Test, Head_Batch Step 500]	Train-halfER
+2022-12-01 10:36:49,101 - Train-halfER - [INFO] - [Test, Head_Batch Step 600]	Train-halfER
+2022-12-01 10:37:11,689 - Train-halfER - [INFO] - [Test, Head_Batch Step 700]	Train-halfER
+2022-12-01 10:37:34,254 - Train-halfER - [INFO] - [Test, Head_Batch Step 800]	Train-halfER
+2022-12-01 10:37:56,832 - Train-halfER - [INFO] - [Test, Head_Batch Step 900]	Train-halfER
+2022-12-01 10:38:19,419 - Train-halfER - [INFO] - [Test, Head_Batch Step 1000]	Train-halfER
+2022-12-01 10:38:42,004 - Train-halfER - [INFO] - [Test, Head_Batch Step 1100]	Train-halfER
+2022-12-01 10:38:55,072 - Train-halfER - [INFO] - [Epoch 0 test]: MRR: Tail : 0.10761, Head : 0.00022, Avg : 0.05392
+2022-12-01 10:38:55,073 - Train-halfER - [INFO] - [Epoch 0 test]: MR: 1.3224e+05
+2022-12-01 10:38:55,073 - Train-halfER - [INFO] - [Epoch 0 test]: Hits@1: 0.02768, Hits@3: 0.05827, Hits@10: 0.10732
+
