@@ -31,11 +31,16 @@ We extracted all attributes of entities in the dataset from **DBpedia**. It cont
 The full dataset with attribute information is available in [Zenodo](https://doi.org/10.5281/zenodo.7431612).
 
 
-
 ## Benchmarking
 
 - Link predection experiments are conducted with three models **TransE**, **DistMult**, and **ConvE** on all datasets.
-- the configurations for each of the models are given in the Code diectory.
+- the configurations for each of the models are given in the `Code/` diectory.
+
+## How to use these data for knowledge graph completion tasks?
+
+We have provided detailed experimental use cases. 
+
+The experimental code and related instructions can be viewed at [README](./Code/README.md) under `Code/`.
 
 ## Others
 
