@@ -1,12 +1,14 @@
 # S-DBpedia: A benchmark dataset for spatial knowledge graph completion
 
+
+
 - A benchmark for Spatial Knowledge Graph Completion (**SKGC**) extracted from **DBpedia**.
 - It can be used to evaluate Knowledge Graph Embedding methods or to evaluate Knowledge Graph Embedding methods with **attributes**.
 - The S-DBpedia baseline dataset contains two types of datasets. 
   - Data scale: S-DBpedia_small, S-DBpedia_medium, S-DBpedia_large, S-DBpedia.
   - Data Sparsity: S-DBpedia_GT5E, S-DBpedia_GT10E, S-DBpedia_GT20E, S-DBpedia_GT50E.
 
-## Dataset Statstics and Analysis
+**Dataset Statstics and Analysis**
 
 |     Dataset      | Relation | Entity  | Training Set | Validation Set | Test Set |
 | :--------------: | :------: | :-----: | :----------: | :------------: | :------: |
@@ -24,23 +26,35 @@
 
 
 
-## Attributes
+**Attribute information**
 
 We extracted all attributes of entities in the dataset from **DBpedia**. It contains **text**, **numerical**, and **image** information.
 
 The full dataset with attribute information is available in [Zenodo](https://doi.org/10.5281/zenodo.7431612).
 
+The data in zenodo includes the dataset file (dataset name) and all attribute files of the entity (Attribute.tar.gz)
 
-## Benchmarking
 
-- Link predection experiments are conducted with three models **TransE**, **DistMult**, and **ConvE** on all datasets.
-- the configurations for each of the models are given in the `Code/` diectory.
+**Assessment of the benchmark quality**
+
+Detailed instructions for baseline quality assessment can be viewed in [Baseline_Quality_Assessment_Instructions.md](./Baseline_Quality_Assessment_Instructions.md).
+
+
+## Repository structure description
+- `DataPrecessCode/`: This folder contains the detailed process of creating S-DBpedia.
+- `Code/`: This folder contains the experimental code for knowledge graph completion in the paper and detailed real use cases.
+- `Additional-Information/`: This folder contains detailed information about the data processing part of the paper.
+- `Evaluate_code/`: This folder contains code used to evaluate benchmark quality.
+
+> dataset available: https://doi.org/10.5281/zenodo.7431612
+
 
 ## How to use these data for knowledge graph completion tasks?
 
-We have provided detailed experimental use cases. 
+Link predection experiments are conducted with three models **TransE**, **DistMult**, and **ConvE** on all datasets. We have provided detailed experimental use cases. 
 
-The experimental code and related instructions can be viewed at [README](./Code/README.md) under `Code/`.
+The experimental code and related instructions can be viewed at [README](./Code/README.md) under `Code/`. the configurations for each of the models are given in the `Code/` diectory.
+
 
 ## Others
 
