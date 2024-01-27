@@ -51,7 +51,7 @@ Detailed instructions for baseline quality assessment can be viewed in [Baseline
 
 ## How to use these data for knowledge graph completion tasks?
 
-Link predection experiments are conducted with three models **TransE**, **DistMult**, and **ConvE** on all datasets. We have provided detailed experimental use cases. 
+We conduct link prediction experiments on all datasets using three models: **TransE**, **DistMult**, and **ConvE**. We have provided detailed experimental use cases. 
 
 The experimental code and related instructions can be viewed at [README](./Code/README.md) under `Code/`. the configurations for each of the models are given in the `Code/` diectory.
 
