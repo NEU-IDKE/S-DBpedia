@@ -2,7 +2,7 @@
 
 # How to use?
 
-Link predection experiments are conducted with three models **TransE**, **DistMult**, and **ConvE** on all datasets.
+We conduct link prediction experiments on all datasets using three models: **TransE**, **DistMult**, and **ConvE**. The following is the specific process of the experiment.
 
 ## Datasets
 
@@ -148,6 +148,9 @@ nohup python run.py -name Train-small -data S-DBpedia_small -batch 128 > ./log/t
 # S-DBpedia_medium
 nohup python run.py -name Train-medium -data S-DBpedia_medium -batch 128 > ./log/train-S-DBpedia_medium.log 2>&1 &
 
+# S-DBpedia_large
+nohup python run.py -name Train-large -data S-DBpedia_large -batch 128 > ./log/train-S-DBpedia_large.log 2>&1 &
+
 # S-DBpedia_GT5E
 nohup python run.py -name Train-GT5E -data S-DBpedia_GT5E -batch 128 > ./log/train-S-DBpedia_GT5E.log 2>&1 &
 
@@ -156,6 +159,9 @@ nohup python run.py -name Train-GT10E -data S-DBpedia_GT10E -batch 128 > ./log/t
 
 # S-DBpedia_GT20E
 nohup python run.py -name Train-GT20E -data S-DBpedia_GT20E -batch 128 > ./log/train-S-DBpedia_GT20E.log 2>&1 &
+
+# S-DBpedia_GT50E
+nohup python run.py -name Train-GT50E -data S-DBpedia_GT50E -batch 128 > ./log/train-S-DBpedia_GT50E.log 2>&1 &
 ```
 
 ## Acknowledgement
