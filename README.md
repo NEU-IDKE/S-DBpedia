@@ -3,7 +3,7 @@
 
 
 - A benchmark for Spatial Knowledge Graph Completion (**SKGC**) extracted from **DBpedia**.
-- It can be used to evaluate Knowledge Graph Embedding methods or to evaluate Knowledge Graph Embedding methods with **attributes**.
+- It can be used to evaluate Spatial Knowledge Graph Embedding or Completion methods.
 - The S-DBpedia baseline dataset contains two types of datasets. 
   - Data scale: S-DBpedia_small, S-DBpedia_medium, S-DBpedia_large, S-DBpedia.
   - Data Sparsity: S-DBpedia_GT5E, S-DBpedia_GT10E, S-DBpedia_GT20E, S-DBpedia_GT50E.
@@ -37,7 +37,7 @@ The data in zenodo includes the dataset file (dataset name) and all attribute fi
 
 **Assessment of the benchmark quality**
 
-Detailed instructions for baseline quality assessment can be viewed in [Baseline_Quality_Assessment_Instructions.md](./Baseline_Quality_Assessment_Instructions.md).
+Detailed instructions for data quality assessment can be viewed in [Baseline_Quality_Assessment_Instructions.md](./Baseline_Quality_Assessment_Instructions.md).
 
 
 ## Repository structure description
@@ -49,11 +49,11 @@ Detailed instructions for baseline quality assessment can be viewed in [Baseline
 > dataset available: https://doi.org/10.5281/zenodo.7431612
 
 
-## How to use these data for knowledge graph completion tasks?
+## How to use these data for spatial knowledge graph completion tasks?
 
 We conduct link prediction experiments on all datasets using three models: **TransE**, **DistMult**, and **ConvE**. We have provided detailed experimental use cases. 
 
-The experimental code and related instructions can be viewed at [README](./Code/README.md) under `Code/`. the configurations for each of the models are given in the `Code/` diectory.
+The experimental code and related instructions can be viewed at [README](./Code/README.md) under `Code/`. The configurations for each of the models are given in the `Code/` diectory.
 
 
 ## Others
