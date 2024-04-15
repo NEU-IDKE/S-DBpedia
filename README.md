@@ -51,7 +51,7 @@ Detailed instructions for data quality assessment can be viewed in [Baseline_Qua
 
 ## How to use these data for spatial knowledge graph completion tasks?
 
-We conduct link prediction experiments on all datasets using three models: **TransE**, **DistMult**, and **ConvE**. We have provided detailed experimental use cases. 
+We conduct link prediction experiments on all datasets using five models: **TransE**, **DistMult**, **ConvE**, **TransE-GDR** and **SSLP** . We have provided detailed experimental use cases. 
 
 The experimental code and related instructions can be viewed at [README](./Code/README.md) under `Code/`. The configurations for each of the models are given in the `Code/` diectory.
 
