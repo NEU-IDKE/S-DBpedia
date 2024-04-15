@@ -2,7 +2,7 @@
 
 # How to use these data for spatial knowledge graph completion tasks?
 
-We conduct link prediction experiments on all datasets using three models: **TransE**, **DistMult**, and **ConvE**. The following is the specific process of the experiment.
+We conduct link prediction experiments on datasets using five models: **TransE**, **DistMult**, **ConvE**, **TransE-GDR** and **SSLP**. The following is the specific process of the experiment.
 
 ## Datasets
 
