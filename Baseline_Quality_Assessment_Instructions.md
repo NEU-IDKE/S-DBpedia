@@ -10,7 +10,7 @@ Inspired by the quality evaluation of WorldKG (which is a large-scale data sourc
 
 Geohash is a method of encoding geographic coordinates into a string. It encodes the latitude and longitude coordinates of the earth's surface into a string. The length of this string depends on the accuracy. The longer the string, the higher the location accuracy. Geohash is often used in spatial indexing, geographical search, geographical data aggregation and other applications, such as map services, location services, social networks, advertising positioning and other fields. We will perform multi-source spatial information evaluation by using Geohash. In this part of the evaluation, we will evaluate the quality of spatial information in S-DBpedia. Specifically, we compare the entity latitude and longitude information in S-DBpedia with data in WorldKG and Wikidata.
 
-For this purpose, we randomly select 1000 S-DBpedia entity samples from S-DBpedia. We use six geohash precisions to evaluate the quality of spatial location information. The evaluation results are shown in the table below. The relevant code can be viewed at [Evaluate code](https://github.com/NEU-IDKE/S-DBpedia/tree/master/Evaluate_code).
+For this purpose, we randomly select 1000 S-DBpedia entity samples from S-DBpedia. We use six geohash precisions to evaluate the quality of spatial location information. The evaluation results are shown in the table below. The relevant code can be viewed at [Quality_Assessment_code](https://github.com/NEU-IDKE/S-DBpedia/tree/master/Quality_Assessment_code).
 
 | S-DBpeida geohash precision | Consistency |
 | :-------------------------: | :---------: |
