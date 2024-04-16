@@ -164,6 +164,65 @@ nohup python run.py -name Train-GT20E -data S-DBpedia_GT20E -batch 128 > ./log/t
 nohup python run.py -name Train-GT50E -data S-DBpedia_GT50E -batch 128 > ./log/train-S-DBpedia_GT50E.log 2>&1 &
 ```
 
+
+### TransE-GDR
+
+Like TransE, TransE-GDR uses OpenKE code to conduct related experiments.
+
+**Usage**
+
+If TransE is already running normally, you can directly execute the following command, otherwise OpenKE needs to be configured. For the configuration of openKE, please see the TransE section above.
+
+To run a model execute the following command :
+
+```py
+# Save the idke folder to OpenKE/, which contains relevant model code.
+cp ../TransE-GDR/idke/ ./ -rf
+
+# S-DBpedia_GT5E
+cp ../TransE-GDR/train_transeGDR_S-DBpedia_GT5E.py ./
+python train_transeGDR_S-DBpedia_GT5E.py
+
+# S-DBpedia_small
+cp ../TransE-GDR/train_transeGDR_S-DBpedia_small.py ./
+python train_transeGDR_S-DBpedia_small.py
+
+# TD1
+cp ../TransE-GDR/train_transeGDR_TD1.py ./
+python train_transeGDR_TD1.py
+
+# TD2
+cp ../TransE-GDR/train_transeGDR_TD2.py ./
+python train_transeGDR_TD2.py
+```
+
+
+
+### SSLP
+
+We use the code provided in the paper, details can be found at https://github.com/gkmn21/SSLPandUSLP.
+
+**Usage**
+
+Configure the required environment according to the readme file in the above [SSLP github repository](https://github.com/gkmn21/SSLPandUSLP), and then execute the following code.
+
+```py
+# S-DBpedia_GT5E
+nohup python -u main.py --gpu_id 3  --do_train --do_test --data_path /home/datasets/S-DBpedia_GT5E --score_f HAKE --with_type_sampler -n 256 -b 64 -g 12.0 -a 1.0 -lr 0.001 --max_steps 3000 --log_steps 50 -save /home/code/SSLPandUSLP-main/SAVE --test_batch_size 1 -mw 1.0 -pw 0.5 -hw 0    > ~/log/S-DBpedia_GT5E.log  2>&1 &
+
+# S-DBpedia_small
+nohup python -u main.py --gpu_id 3  --do_train --do_test --data_path /home/datasets/S-DBpedia_small --score_f HAKE --with_type_sampler -n 256 -b 64 -g 12.0 -a 1.0 -lr 0.001 --max_steps 3000 --log_steps 50 -save /home/code/SSLPandUSLP-main/SAVE --test_batch_size 1 -mw 1.0 -pw 0.5 -hw 0    > ~/log/S-DBpedia_small.log  2>&1 &
+
+# TD1
+python main.py --gpu_id 2 --do_train --do_test --do_valid --data_path /home/maocy/datasets/TD1 --score_f HAKE --with_type_sampler -n 256 -b 64 -g 12.0 -a 1.0 -lr 0.001 --max_steps 3000 --log_steps 50 -save /home/SSLPandUSLP-main/SAVE --test_batch_size 1 -mw 1.0 -pw 0.5 -hw 0.8  > ~/log/TD1.log  2>&1 &
+
+# TD2
+python main.py --gpu_id 1 --do_train --do_test --do_valid --data_path /home/maocy/datasets/TD2 --score_f HAKE --with_type_sampler -n 256 -b 64 -g 12.0 -a 1.0 -lr 0.001 --max_steps 3000 --log_steps 50 -save /home/SSLPandUSLP-main/SAVE --test_batch_size 1 -mw 1.0 -pw 0.5 -hw 0.8 > ~/log/TD2.log  2>&1 &
+
+```
+
+
+
 ## Acknowledgement
 
-We refer to the code of [OpenKE](https://github.com/thunlp/OpenKE). Thanks for their contributions.
+In this experiment, we used the relevant code of the [OpenKE](https://github.com/thunlp/OpenKE) library. TranE-GDR reproduces the model by using the OpenKE library, and SSLP-related experiments use the [code](https://github.com/gkmn21/SSLPandUSLP) in the original paper for related experiments. Thanks for their contributions.
