@@ -44,7 +44,7 @@ Detailed instructions for data quality assessment can be viewed in [Baseline_Qua
 - `DataPrecessCode/`: This folder contains the detailed process of creating S-DBpedia.
 - `Code/`: This folder contains the experimental code for knowledge graph completion in the paper and detailed real use cases.
 - `Additional-Information/`: This folder contains detailed information about the data processing part of the paper.
-- `Evaluate_code/`: This folder contains code used to evaluate benchmark quality.
+- `Quality_Assessment_code/`: This folder contains code used to evaluate benchmark quality.
 
 > dataset available: https://doi.org/10.5281/zenodo.7431612
 
