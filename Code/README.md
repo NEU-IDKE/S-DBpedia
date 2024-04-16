@@ -200,11 +200,11 @@ python train_transeGDR_TD2.py
 
 ### SSLP
 
-We use the code provided in the paper, details can be found at https://github.com/gkmn21/SSLPandUSLP.
+We use the code provided in the paper, details can be found at [SSLP github repository](https://github.com/gkmn21/SSLPandUSLP).
 
 **Usage**
 
-Configure the required environment according to the readme file in the above [SSLP github repository](https://github.com/gkmn21/SSLPandUSLP), and then execute the following code.
+Configure the required environment according to the readme file in  [SSLP github repository](https://github.com/gkmn21/SSLPandUSLP), and then execute the following code.
 
 ```py
 # S-DBpedia_GT5E
